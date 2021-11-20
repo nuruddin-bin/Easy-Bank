@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Public Sans', sans-serif;
+}
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-Blue: hsl(220, 16%, 96%);
+    --ver-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.root {
+    overflow-x: hidden;
+}
+
+.nav-section {
+    position: relative;
+    z-index: 1;
+    background-color: var(--white);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+nav button {
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--grayish-blue);
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--dark-blue);
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--white);
+}
+
+#btn1 {
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, var(--bright-cyan), var(--lime-green));
+}
+
+.header-section .container {
+    display: flex;
+    align-items: center;
+}
+
+.con-div {
+    padding-bottom: 40px;
+}
+
+.text-div {
+    flex-basis: 40%;
+}
+
+.image-div {
+    flex-basis: 60%;
+    position: relative;
+}
+
+.text-div h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.text-div p {
+    color: var(--grayish-blue);
+    margin-bottom: 30px;
+}
+
+.header-section {
+    background: hsl(0deg 0% 98%);
+}
+
+.image-div img:first-child {
+    position: relative;
+    transform: scale(1.6);
+    right: -200px;
+    top: -50px;
+}
+
+.image-div img:last-child {
+    position: absolute;
+    right: -190px;
+    top: -160px;
+    transform: calc(1.1);
+}
+
+.why-section {
+    background-color: var(--light-grayish-Blue);
+    padding: 100px 0;
+}
+
+.why-section .container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.why-section .container > p{
+    color: var(--grayish-blue);
+    margin-bottom: 60px;
+}
+
+.article-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-warp {
+    display: flex;
+
+}
+
+.card-warp .card {
+    padding-right: 30px;
+
+}
+
+.card-warp .card img {
+    margin-bottom: 30px;
+}
+
+.card-warp .card h3 {
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.card-warp .card p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.article {
+    padding: 100px 0;
+    background-color: var(--ver-light-gray);
+}
+
+.article .container h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.article .container .card-warp .article-card {
+    margin-right: 30px;
+    background-color: var(--white);
+}
+
+.article .container .card-warp .article-card .article-text {
+    padding: 20px;
+}
+
+.article .container .card-warp .article-card .article-text p:first-child {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.article .container .card-warp .article-card .article-text a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    display: inline-block;
+    padding: 10px 0;
+    transition: color 0.5s;
+}
+
+.article .container .card-warp .article-card .article-text a:hover {
+    color: var(--lime-green);
+}
+
+.article .container .card-warp .article-card .article-text p:last-child {
+    color: var(--grayish-blue);
+    font-size: 16px;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    padding: 30px;
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div ul {
+    display: flex;
+    margin-top: 50px;
+}
+
+.content ul li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.content ul li{
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    color: var(--white);
+    transition: color 0.3s;
+}
+
+.content a:hover {
+    color: var(--grayish-blue);
+}
+
+.c-div {
+    text-align: right;
+}
+
+.c-div .btn {
+    margin-bottom: 15px;
+}
+
+.c-div p:last-child{
+    margin-top: 10px;
+}
+
+.c-div span {
+    color: var(--ver-light-gray);
+    font-variant: small-caps;
+}

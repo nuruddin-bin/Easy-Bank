@@ -1,0 +1,30 @@
+/* Hide Hamburger logo */
+@media (min-width: 871px){
+    .hamburger-btn {
+        display: none;
+    }
+}
+
+
+/* footer area */
+@media (max-width: 700px){
+    .content .content-piec {
+        flex: 1 0 100%;
+        margin-bottom: 30px;
+    }
+    .content div ul {
+        margin-top: 25px;
+    }
+    #fb-logo {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .content ul li{
+        margin-right: 0;
+        margin-left: 16px;
+    }
+    .content .c-div {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

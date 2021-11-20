@@ -1,0 +1,145 @@
+/* for Tablet 870px */
+
+
+/* nav section */
+.nav-links {
+    position: fixed;
+    background-color: var(--white);
+    top: 80px;
+    left: -500px;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 20px 100px 20px rgba(141,141,141,0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links.open {
+    left: 50%;
+}
+
+nav .btn {
+    display: none;
+}
+
+.hamburger-btn {
+    border: none;
+    outline: none;
+    background-color: var(--white);
+}
+
+
+/* heading sectin */
+.image-div img:first-child{
+    top: -55px;
+    right: -50px;
+}
+
+.image-div img:last-child {
+    top: -120px;
+    right: -70px;
+}
+
+.text-div {
+    flex-basis: 70%;
+}
+
+.image-div {
+    flex-basis: 30%;
+}
+
+.text-div {
+    padding: 50px 0;
+}
+
+.text-div h1{
+    font-size: 30px;
+}
+
+.text-div p{
+    font-size: 16px;
+}
+
+.text-div button{
+    font-size: 13px;
+}
+
+.con-div {
+    padding-bottom: 0;
+}
+
+
+/* why section */
+.why-section {
+    padding: 30px 0;
+}
+
+.why-section .container h2 {
+    font-size: 24px;
+}
+
+#why-sec-p {
+    font-size: 16px;
+}
+
+.card-warp {
+    flex-wrap: wrap;
+}
+
+.card-warp .card {
+    flex: 1 0 40%;
+    padding-right: 0;
+    margin-bottom: 30px;
+} 
+
+.card-warp .card:nth-child(even){
+    margin-left: 30px;
+}
+
+
+/* article area */
+.card-warp {
+    flex-wrap: wrap;
+}
+
+.article-card {
+    flex: 1 0 40%;
+    margin-bottom: 30px;
+}
+
+.article .container .card-warp .article-card{
+    margin-right: 0;
+} 
+
+.article .container .card-warp .article-card:nth-child(odd){
+    margin-right: 30px;
+}
+
+.article {
+    padding: 30px 0;
+}
+
+/* footer */
+.content {
+    flex-wrap: wrap;
+}
+
+.content-piec {
+    flex: 1 0 30%;
+    text-align: center;
+}
+
+.content-piec ul {
+    justify-content: center;
+}
+
+.c-div {
+    text-align: center;
+    margin-top: 10px;
+}

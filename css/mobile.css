@@ -1,0 +1,17 @@
+/* for Mobile 500px */
+
+
+/* why section */
+.card-warp .card {
+    flex: 1 0 100%;
+}
+
+.card-warp .card:nth-child(even){
+    margin-left: 0;
+}
+
+
+/* article area */
+.article-card {
+    flex: 1 0 100%;
+}
