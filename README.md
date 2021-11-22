@@ -1,4 +1,3 @@
 # easy-bank
-##Demo
-
+## Demo
 https://nuruddin-bin.github.io/easy-bank/
